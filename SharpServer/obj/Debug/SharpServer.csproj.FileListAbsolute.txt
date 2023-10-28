@@ -1,0 +1,8 @@
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\bin\Debug\SharpServer.exe.config
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\bin\Debug\SharpServer.exe
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\bin\Debug\SharpServer.pdb
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\obj\Debug\SharpServer.csproj.AssemblyReference.cache
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\obj\Debug\SharpServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\obj\Debug\SharpServer.csproj.CoreCompileInputs.cache
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\obj\Debug\SharpServer.exe
+C:\Users\jacky\Downloads\SimpleHttpServer-master\SharpServer\obj\Debug\SharpServer.pdb
