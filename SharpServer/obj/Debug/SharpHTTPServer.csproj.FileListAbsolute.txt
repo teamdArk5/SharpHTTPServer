@@ -1,0 +1,8 @@
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\bin\Debug\SharpServer.exe.config
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\bin\Debug\SharpServer.exe
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\bin\Debug\SharpServer.pdb
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\obj\Debug\SharpHTTPServer.csproj.AssemblyReference.cache
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\obj\Debug\SharpHTTPServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\obj\Debug\SharpHTTPServer.csproj.CoreCompileInputs.cache
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\obj\Debug\SharpServer.exe
+C:\Users\jacky\Desktop\Projects[C#]\dArkTools\SharpServer\obj\Debug\SharpServer.pdb

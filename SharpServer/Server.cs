@@ -11,15 +11,16 @@ namespace SharpServer
     {
         private Socket Socket;
         //Define an available port you'd like to listen HERE.
-        private readonly int Port = 80;
+        private int Port = 80;
         private readonly int Backlog = 10;
         private byte[] Buffer = new byte[1024];
         private List<Socket> Clients = new List<Socket>();
 
         //Simply create the server by creating a Socket object.
-        public Server()
+        public Server(int port = 80)
         {
             Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            Port = port;
         }
 
         //Start the server and listen to the socket.
@@ -53,7 +54,9 @@ namespace SharpServer
             var receivedBytes = new byte[receivedSize];
             Array.Copy(Buffer, receivedBytes, receivedSize);
             var data = Encoding.ASCII.GetString(receivedBytes);
-            Console.WriteLine("Data received: \n" + data);
+
+            // Console.WriteLine("Data received: \n" + data);
+
             //Looks nasty and unecessary but we need to distinguish GET's from other methods.
             var headers = data.Split(' ');
             if (headers[0].ToUpper() == "GET")
@@ -88,7 +91,6 @@ namespace SharpServer
                                 BeginSendFileData(client, fileStream);
                             }, client);
                         }
-
                     }
                 }
                 else if (requestedPath == "/")
