@@ -4,4 +4,4 @@
 ![](./Usage.bmp)
 
 
-！[./example.bmp]
+![](./example.bmp)
