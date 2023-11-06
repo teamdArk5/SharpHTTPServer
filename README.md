@@ -1,5 +1,5 @@
 # SharpHTTPServer
- This is an HTTP server implemented using sockets.
+ This is a HTTP server implemented using sockets.
 
 ![](./Usage.bmp)
 
